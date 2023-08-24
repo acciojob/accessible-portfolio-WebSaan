@@ -1,53 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>My Portfolio</h1>
-    <nav>
+    <h1 aria-role="heading">My Portfolio</h1>
+    <nav aria-role="navigation">
       <ul>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li aria-role="listitem"><a href="#">Home</a></li>
+        <li aria-role="listitem"><a href="#">About Me</a></li>
+        <li aria-role="listitem"><a href="#">Projects</a></li>
       </ul>
     </nav>
   </header>
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><img src="project1.jpg" alt="Project 1" aria-role="img">
-        <p>This is my first project.</p>
-      </li>
-      <li><img src="project2.jpg" alt="Project 2" aria-role="img">
-        <p>This is my second project.</p>
-      </li>
-      <li><img src="project3.jpg" alt="Project 3" aria-role="img">
-        <p>This is my third project.</p>
-      </li>
+  <main>
+    <img src="https://images.unsplash.com/photo-1601702645454-3140ab588600?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=425&q=80" alt="My photo" aria-role="img">
+    <p>This is my portfolio. I am a software engineer with experience in web development, mobile development, and data science.</p>
+    <ul aria-role="list">
+      <li aria-role="listitem">Web Development</li>
+      <li aria-role="listitem">Mobile Development</li>
+      <li aria-role="listitem">Data Science</li>
     </ul>
-  </section>
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Natural language processing</li>
-      <li>Machine learning</li>
-      <li>Computer vision</li>
-      <li>Text generation</li>
-      <li>Translation</li>
-      <li>Summarization</li>
-      <li>Question answering</li>
-      <li>Code generation</li>
-      <li>Creativity</li>
-      <li>Problem solving</li>
-    </ul>
-  </section>
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>You can contact me at <a href="mailto:me@example.com">me@example.com</a>.</p>
-  </section>
+  </main>
 </body>
 </html>
 
